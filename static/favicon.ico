@@ -1,0 +1,3 @@
+@app.get("/favicon.ico")
+def favicon():
+    return {"message": "No favicon provided"}
